@@ -110,10 +110,6 @@ def reservation_guests(id):
 
         except WrongPasswordError :
             result = jsonify({'error': 'wrong password'})
-    
-        # TODO: check password
-
-        # TODO: check if is future reservation
 
     return result
 
